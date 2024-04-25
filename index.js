@@ -2,9 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const { MongoClient } = require('mongodb');
 const app = express();
-
-app.use(express.static());
-
+app.use(express.static(__dirname));
 
 const mongo_uri = process.env.MONGO_URI || 'mongodb+srv://rajat27999:8hgkx026QbWXE3mF@cluster0.rvrxaef.mongodb.net/?retryWrites=true&w=majority';
 
