@@ -4,7 +4,8 @@
   "description": "A dynamic web app for mapping company names to stock tickers.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "script.js"
   },
 
 "repository": {
